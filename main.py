@@ -65,8 +65,7 @@ def main():
     sp_write.user_playlist_replace_items(
         sp_write.me()['id'], playlist_id, track_ids)
 
-    print(f"✅ Playlist '{args.playlist}' updated with {
-          len(track_ids)} top tracks ({args.time} term).")
+    print(f"✅ Playlist '{args.playlist}' updated with {len(track_ids)} top tracks ({args.time} term).")
 
 
 if __name__ == '__main__':
