@@ -23,6 +23,21 @@ Utilizes Spotipy and Spotify Web API to create playlists of a users's most liste
 * Input desired range of time as either `short` (4 weeks), `medium` (6 months), or `long` (All time)
 * if TIME_RANGE argument is not present the default time range is short
 
+## .env example
+
+```
+SPOTIPY_CLIENT_ID=
+SPOTIPY_CLIENT_SECRET=
+SPOTIPY_REDIRECT_URI=http://localhost:8888/callback/
+SPOTIFY_USERNAME=
+
+# Playlist name and time range
+PLAYLIST_NAME=My Top Songs
+TIME_RANGE=short  # short, medium, long
+```
+
+Copy this to .env and fill in your credentials.
+
 ## ToDo
 * Create GUI
 * Add additional functionality
